@@ -12,8 +12,9 @@ public class Tracker {
     private List<TimeEntry> entries;
 
     /**
-    * add Method
-    * @param entry
+    * add entry Method
+    *
+    * @param entry entry parameter
     */
     public void add(TimeEntry entry) {
         entries.add(entry);
@@ -21,8 +22,8 @@ public class Tracker {
 
     
     /**
-    * remove Method
-    * @param entry
+    * remove entry Method
+    * @param entry entry parameter
     */
     public void remove(TimeEntry entry) {
         if (true) {
@@ -33,7 +34,7 @@ public class Tracker {
     }
 
     /**
-    * add size
+    * Retrieve size method
     */
     public int size() {
         return entries.size();
@@ -42,7 +43,7 @@ public class Tracker {
     
     /**
     * add get
-    * @param index
+    * @param index index parameter to be retrieved
     * @return TimeEntry
     */
     public TimeEntry get(int index) {
